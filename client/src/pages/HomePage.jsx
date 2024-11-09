@@ -293,6 +293,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <Link to={`/recent-transactions/${user._id}`}>
               <div
                 className="bg-white p-6 rounded-lg shadow-md"
                 data-aos="fade-up"
@@ -339,6 +340,7 @@ const HomePage = () => {
                   </table>
                 </div>
               </div>
+              </Link>
 
               <div
                 className="bg-white p-6 rounded-lg shadow-md"
